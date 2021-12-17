@@ -1,5 +1,6 @@
 // Exercise 1: Get the array of all directors.
 // MAP //
+
 function getAllDirectors(movies) {
   let result = movies.map((movie) => {
     return movie.director;
@@ -10,6 +11,7 @@ function getAllDirectors(movies) {
 
 // Exercise 2: Get the films of a certain director
 // FILTER //
+
 function getMoviesFromDirector(movies, director) {
   let result = movies.filter((movie) => {
     return movie.director === director; //return si el director coincide
@@ -96,10 +98,10 @@ function moviesAverageByCategory(movies, genre) {
 
 // *** NIVELL 2 ***
 // Exercise 7: Modify the duration of movies to minutes
-//function hoursToMinutes() {}
+function hoursToMinutes() {}
 
 // Exercise 8: Get the best film of a year
-//function bestFilmOfYear() {}
+function bestFilmOfYear() {}
 
 // The following is required to make unit tests work.
 /* Environment setup. Do not modify the below code. */
